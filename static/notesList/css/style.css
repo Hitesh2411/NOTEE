@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+}
+
+#login-page{
+    padding: 0.75vw 4vw;
+
+
+    #nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* padding: 1vw 2vw; */
+
+        #logo{
+            font-size: 2.25vw;
+            letter-spacing: -.5px;
+            color: transparent;
+            -webkit-text-stroke: .5px black;
+            /* -webkit-text-fill-color: ; */
+        }
+
+        button{
+            font-size: 1vw;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            background-color: aqua;
+            padding: 10px 15px;
+        }
+    }
+
+    #hero-sec{
+        padding: 15vh 0vh;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: space-between;
+        gap: 1vw;
+        align-items: center;
+        #content{
+            width: 45%;
+            /* border: 1px solid green; */
+            padding: 1vw 0.5vw;
+
+            button{
+                margin-top: 2vh;
+                padding: 1vh 1vw;
+                border-radius: 8px;
+                font-size: 2.2vh;
+                border: none;
+                /* color: white; */
+                font-weight: 500;
+            }
+            #lb{
+                background-color: aquamarine;
+                margin-right: 1vw;
+            }
+            #rb{
+                background-color: lightgreen;
+            }
+        }
+        #content h1{
+            font-size: 3.5vw;
+            letter-spacing: 2px;
+        }
+        #content h4{
+            font-size: 1.25vw;
+            font-weight: 100;
+        }
+        #images{
+            width: 50%;
+            /* border: 1px solid blue; */
+
+        }
+    }
+
+}
